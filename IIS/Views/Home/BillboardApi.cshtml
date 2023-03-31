@@ -1,0 +1,83 @@
+﻿@model BillboardRank
+@{
+    ViewData["Title"] = "Billboard api";
+    bool isNull = ViewBag.Rank == null;
+    BillboardRank rank = null;
+    if (!isNull)
+    {
+        rank = ViewBag.Rank as BillboardRank;
+    }
+}
+<link href="/css/Index.css" rel="stylesheet" />
+<link href="/css/Billboard.css" rel="stylesheet" />
+
+
+<div class="ag-format-container">
+    <div class="ag-courses_box" style="justify-content: center">
+
+        <div class="text-center" id="homeBtnDiv">
+            <a id="homeBtn" href="/Home/Index"><i class="bi bi-house-door-fill"></i></a>
+        </div>
+
+        <div class="text-center" id="homeBtnDiv">
+            <p id="demo2" style="color:white;">Please specify the date and desired number of top Billboard songs you would like to view.</p>
+        </div>
+        <div class="slidecontainer">
+            <input type="range" min="1" max="10" value="50" class="slider" id="myRange">
+            <p id="demo"></p>
+        </div>
+
+        <div class="container" style="display:flex; flex-direction:row; width:100%;">
+            <div class="container">
+                <input type="date" class="form-control date" id="datepickerid" placeholder="Pick a date">
+            </div>
+            <div class="container" style="text-align-last:right;">
+                <span id="nullValues" style="color:white; margin:5px;"></span><a id="aSubmit" href="#" onclick="GeneratePartials()" class="btn" style="background-color:#04AA6D">Submit</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@if (rank!=null)
+{
+    <div class="container">
+        @foreach (var item in rank.Content)
+        {
+            @Html.Partial("_Content", item.Value)
+        }
+    </div>
+}
+
+<script>
+
+    var slider = document.getElementById("myRange");
+    var output = document.getElementById("demo");
+    output.innerHTML = slider.value;
+    slider.oninput = function () {
+        output.innerHTML = this.value;
+    }
+
+
+    function GeneratePartials() {
+        let e = document.getElementById("datepickerid").value;
+        let u = document.getElementById("myRange").value;
+        let f = document.getElementById("aSubmit");
+        let tempString = "";
+        tempString += "/Home/BillboardApi/";
+        tempString += u;
+        tempString += "/";
+        tempString += e;
+        let endsWithWorld = tempString.endsWith("/");
+
+        if (endsWithWorld) {
+            let o = document.getElementById("nullValues");
+            o.innerHTML = "Please select a date"
+        } else {
+            f.href = tempString;
+        }
+
+    }
+
+</script>
+

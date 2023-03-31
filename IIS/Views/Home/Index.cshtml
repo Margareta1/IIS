@@ -1,0 +1,150 @@
+﻿@model WeatherData
+@{
+    ViewData["Title"] = "Home Page";
+}
+<link href="/css/Index.css" rel="stylesheet" />
+<link href="/css/Billboard.css" rel="stylesheet" />
+@*<link href="/css/Rainbow.css" rel="stylesheet" />*@
+
+<style>
+    .shiningLetters {
+        background: linear-gradient(to right, #4d4d4d 0, white 80%, #4d4d4d 100%);
+        background-position: 0;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: shine 3s infinite linear;
+        animation-fill-mode: forwards;
+        -webkit-text-size-adjust: none;
+    }
+</style>
+
+<div class="ag-format-container">
+
+    <div class="text-center" id="homeBtnDiv">
+        <div id="demo2" class="shiningLetters" style="color:white; margin-top:40px; font-size:larger;">This project was created for the needs of a faculty course named <i>"interoperability of information systems"</i>.</div>
+    </div>
+    <div class="ag-courses_box">
+        <div class="ag-courses_item">
+            <a href="/Home/DhmzApi" class="ag-courses-item_link">
+                <div class="ag-courses-item_bg"></div>
+
+                <div class="ag-courses-item_title">
+                    Dhmz
+                </div>
+
+                <div class="ag-courses-item_date-box">
+                    About:
+                    <span class="ag-courses-item_date">
+                        connect to DMHZ api and offers data for cities.
+                    </span>
+                </div>
+            </a>
+        </div>
+
+        <div class="ag-courses_item">
+            <a href="/Home/BillboardApi" class="ag-courses-item_link">
+                <div class="ag-courses-item_bg"></div>
+
+                <div class="ag-courses-item_title">
+                    Billboard
+                </div>
+
+                <div class="ag-courses-item_date-box">
+                    About:
+                    <span class="ag-courses-item_date">
+                        connects to Billboard Api and gives you ranks on selected date.
+                    </span>
+                </div>
+            </a>
+        </div>
+
+        <div class="ag-courses_item">
+            <a href="/Home/SoapApi" class="ag-courses-item_link">
+                <div class="ag-courses-item_bg"></div>
+
+                <div class="ag-courses-item_title">
+                    SOAP api demo
+                </div>
+
+                <div class="ag-courses-item_date-box">
+                    About:
+                    <span class="ag-courses-item_date">
+                        uses XPath to search through existing XML file.
+                    </span>
+                </div>
+            </a>
+        </div>
+
+        <div class="ag-courses_item">
+            <a href="/Home/XsdValidation" class="ag-courses-item_link">
+                <div class="ag-courses-item_bg"></div>
+
+                <div class="ag-courses-item_title">
+                    XSD Validation
+                </div>
+
+                <div class="ag-courses-item_date-box">
+                    About:
+                    <span class="ag-courses-item_date">
+                        validates your XML file.
+                    </span>
+                </div>
+            </a>
+        </div>
+
+        <div class="ag-courses_item">
+            <a href="/Home/RngValidation" class="ag-courses-item_link">
+                <div class="ag-courses-item_bg"></div>
+
+                <div class="ag-courses-item_title">
+                    RNG Validation
+                </div>
+
+                <div class="ag-courses-item_date-box">
+                    About:
+                    <span class="ag-courses-item_date">
+                        validates your XML file.
+                    </span>
+                </div>
+            </a>
+        </div>
+
+        @*        <div class="ag-courses_item">
+        <a href="#" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg"></div>
+
+        <div class="ag-courses-item_title">
+        Front-end development&#160;+ jQuery&#160;+ CMS
+        </div>
+        </a>
+        </div>
+
+        <div class="ag-courses_item">
+        <a href="#" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg">
+        </div>
+        <div class="ag-courses-item_title">
+        Digital Marketing
+        </div>
+        </a>
+        </div>
+        *@
+        @*        <div class="ag-courses_item">
+        <a href="#" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg"></div>
+
+        <div class="ag-courses-item_title">
+        Interior Design
+        </div>
+
+        <div class="ag-courses-item_date-box">
+        Start:
+        <span class="ag-courses-item_date">
+        31.10.2022
+        </span>
+        </div>
+        </a>
+        </div>*@
+
+    </div>
+</div>

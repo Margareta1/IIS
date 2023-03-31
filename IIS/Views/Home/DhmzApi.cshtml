@@ -1,0 +1,98 @@
+﻿@model WeatherData
+@{
+    ViewData["Title"] = "Dhmz api";
+    IList<Grad> gradovi = ViewBag.Data as List<Grad>;
+}
+
+<link href="/css/Index.css" rel="stylesheet" />
+
+<style>
+    #cityInfoList {
+        width: 100%;
+        color: white
+    }
+
+    #divResult {
+        display: none;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: white;
+        font-weight: 600;
+        width: 100%;
+    }
+
+    #homeBtnDiv {
+        width: 100%;
+        margin: 10px;
+    }
+
+    #homeBtn {
+        font-size: xx-large;
+        color: white;
+    }
+
+</style>
+
+
+<div class="ag-format-container">
+    <div class="ag-courses_box" style="justify-content: center">
+
+        <div class="text-center" id="homeBtnDiv">
+            <a id="homeBtn" href="/Home/Index"><i class="bi bi-house-door-fill"></i></a>
+        </div>
+        <div class="text-center" style="width:100%">
+            <div class="dropdown">
+                <select onchange="RenderCity()" class="form-control" id="ddlCity">
+                    <option value="" disabled selected>-- Select a city --</option>
+                    @foreach (var item in gradovi)
+                    {
+                        <option value="@item.GradIme" data-Temp="@item.Podatci.Temp" data-Vlaga="@item.Podatci.Vlaga" data-Tlak="@item.Podatci.Tlak" data-VjetarBrzina="@item.Podatci.VjetarBrzina" data-Vrijeme="@item.Podatci.Vrijeme">@item.GradIme</option>
+
+                    }
+                </select>
+
+            </div>
+        </div>
+
+
+        <div class="ag-courses_item" id="divNonDisplayed" style="margin:2%; display: none;">
+            <div class="ag-courses-item_link">
+                <div class="ag-courses-item_bg"></div>
+
+                <div id="divResult" class="ag-courses-item_title" style="font-size:medium;">
+                    <div class="col-sm-9" id="cityInfoList">
+                        <p> <span>Temperatura: </span><span id="spanTemp"></span></p>
+                        <p><span>Vlaga: </span><span id="spanVlaga"></span></p>
+                        <p><span>Tlak: </span><span id="spanTlak"></span></p>
+                        <p><span>Brzina vjetra: </span><span id="spanVjetar"></span></p>
+                        <p><span>Vrijeme: </span><span id="spanVrijeme"></span></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<script>
+    function RenderCity() {
+
+        let e = document.getElementById("ddlCity");
+        let city = e.options[e.selectedIndex];
+        let cityName = city.value;
+        let d = document.getElementById("divResult");
+        d.style.display = "flex";
+        let k = document.getElementById("divNonDisplayed");
+        k.style.display = "grid";
+        document.getElementById("spanTemp").innerHTML = city.getAttribute("data-Temp");
+        document.getElementById("spanVlaga").innerHTML = city.getAttribute("data-Vlaga");
+        document.getElementById("spanTlak").innerHTML = city.getAttribute("data-Tlak");
+        document.getElementById("spanVjetar").innerHTML = city.getAttribute("data-VjetarBrzina");
+        document.getElementById("spanVrijeme").innerHTML = city.getAttribute("data-Vrijeme");
+
+    }
+</script>
+

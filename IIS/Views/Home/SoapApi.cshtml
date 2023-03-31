@@ -1,0 +1,108 @@
+﻿@using System.Xml;
+@model WeatherData
+@{
+    ViewData["Title"] = "Soap api";
+
+    IList<XmlNode> nodes = null;
+    if (ViewBag.Nodes != null)
+    {
+        nodes = ViewBag.Nodes as List<XmlNode>;
+    }
+}
+
+<link href="/css/Index.css" rel="stylesheet" />
+<link href="/css/Billboard.css" rel="stylesheet" />
+
+<style>
+
+    #songDiv {
+        color: white;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        border: solid;
+        border-color: #04AA6D;
+        background-color: #04AA6D;
+        margin: 10px;
+        border-radius: 15px 50px;
+    }
+</style>
+
+
+<div class="ag-format-container">
+    <div class="ag-courses_box" style="justify-content: center">
+
+        <div class="text-center" id="homeBtnDiv">
+            <a id="homeBtn" href="/Home/Index"><i class="bi bi-house-door-fill"></i></a>
+        </div>
+
+        <div class="text-center" id="homeBtnDiv">
+            <p id="demo2" style="color:white;">Search through a file containing Billboard Hot 100 singles from a random date this year to find a specific song or artist.</p>
+            <p id="demo2" style="color:white; font-size:small">Fair warning: the search bar is case sensitive.</p>
+
+        </div>
+
+
+        <div class="slidecontainer">
+            <div class="text-center" style="width:100%; padding:20px;">
+                <div class="dropdown">
+                    <select class="form-control" id="ddlSearchType">
+                        <option value="" disabled selected>-- Select a search value type--</option>
+                        <option value="Artist">Artist</option>
+                        <option value="Song">Song title</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" style="display:flex; flex-direction:row; width:100%;">
+            <div class="text-center container">
+                <input type="text" class="form-control" id="inputSearchValue" placeholder="Type a search value e.g. Adele"></input>
+
+            </div>
+
+            <div class="container" style="text-align-last:right;">
+                <span id="nullValues" style="color:white; margin:5px;"></span><a id="aSubmit" href="#" onclick="RenderHits()" class="btn" style="background-color:#04AA6D">Submit</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+@if (nodes != null)
+{
+    <div class="container" style="display:grid; display: grid; grid-template-columns: repeat(2, 1fr);grid-template-rows: repeat(1000, 50px);">
+        @foreach (var item in nodes)
+        {
+            <div id="songDiv">
+                @item.SelectSingleNode("Artist").InnerText - @item.SelectSingleNode("Song").InnerText
+            </div>
+        }
+    </div>
+}
+
+<script>
+    function RenderHits() {
+
+        let e = document.getElementById("ddlSearchType");
+        let temp = e.options[e.selectedIndex];
+        let selectedValue = temp.value;
+        let g = document.getElementById("inputSearchValue").value;
+        if (selectedValue !== "" && g !== "") {
+
+            let f = document.getElementById("aSubmit");
+            let tempString = "";
+            tempString += "/Home/SoapApi/";
+            tempString += g;
+            tempString += "/";
+            tempString += selectedValue;
+            f.href = tempString;
+        }
+        else {
+            let o = document.getElementById("nullValues");
+            o.innerHTML = "Please fill all fields"
+        }
+
+
+    }
+</script>

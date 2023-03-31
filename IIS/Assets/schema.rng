@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
+         datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+
+	<start>
+		<element name="BillboardTopSongs">
+			<element name="Data">
+				<oneOrMore>
+					<element name="Datum">
+						<element name="Song">
+							<data type="string"/>
+						</element>
+						<element name="Artist">
+							<data type="string"/>
+						</element>
+						<element name="ThisWeek">
+							<data type="integer"/>
+						</element>
+						<element name="LastWeek">
+							<data type="integer"/>
+						</element>
+						<element name="PeakPosition">
+							<data type="integer"/>
+						</element>
+						<element name="WeeksOnChart">
+							<data type="integer"/>
+						</element>
+					</element>
+				</oneOrMore>
+			</element>
+		</element>
+	</start>
+
+</grammar>

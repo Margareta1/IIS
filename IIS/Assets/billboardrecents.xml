@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BillboardTopSongs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Date>2023-04-01T00:00:00+02:00</Date>
+  <Data>
+    <Datum>
+      <Song>Flowers</Song>
+      <Artist>Miley Cyrus</Artist>
+      <ThisWeek>1</ThisWeek>
+      <LastWeek>1</LastWeek>
+      <PeakPosition>1</PeakPosition>
+      <WeeksOnChart>10</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Last Night</Song>
+      <Artist>Morgan Wallen</Artist>
+      <ThisWeek>2</ThisWeek>
+      <LastWeek>2</LastWeek>
+      <PeakPosition>1</PeakPosition>
+      <WeeksOnChart>8</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Kill Bill</Song>
+      <Artist>SZA</Artist>
+      <ThisWeek>3</ThisWeek>
+      <LastWeek>3</LastWeek>
+      <PeakPosition>2</PeakPosition>
+      <WeeksOnChart>15</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Creepin'</Song>
+      <Artist>Metro Boomin, The Weeknd &amp; 21 Savage</Artist>
+      <ThisWeek>4</ThisWeek>
+      <LastWeek>5</LastWeek>
+      <PeakPosition>3</PeakPosition>
+      <WeeksOnChart>16</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Die For You</Song>
+      <Artist>The Weeknd &amp; Ariana Grande</Artist>
+      <ThisWeek>5</ThisWeek>
+      <LastWeek>4</LastWeek>
+      <PeakPosition>1</PeakPosition>
+      <WeeksOnChart>34</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Boy's A Liar, Pt. 2</Song>
+      <Artist>PinkPantheress &amp; Ice Spice</Artist>
+      <ThisWeek>6</ThisWeek>
+      <LastWeek>6</LastWeek>
+      <PeakPosition>3</PeakPosition>
+      <WeeksOnChart>7</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Anti-Hero</Song>
+      <Artist>Taylor Swift</Artist>
+      <ThisWeek>7</ThisWeek>
+      <LastWeek>7</LastWeek>
+      <PeakPosition>1</PeakPosition>
+      <WeeksOnChart>22</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Calm Down</Song>
+      <Artist>Rema &amp; Selena Gomez</Artist>
+      <ThisWeek>8</ThisWeek>
+      <LastWeek>8</LastWeek>
+      <PeakPosition>8</PeakPosition>
+      <WeeksOnChart>29</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Players</Song>
+      <Artist>Coi Leray</Artist>
+      <ThisWeek>9</ThisWeek>
+      <LastWeek>12</LastWeek>
+      <PeakPosition>9</PeakPosition>
+      <WeeksOnChart>12</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Rock And A Hard Place</Song>
+      <Artist>Bailey Zimmerman</Artist>
+      <ThisWeek>10</ThisWeek>
+      <LastWeek>11</LastWeek>
+      <PeakPosition>10</PeakPosition>
+      <WeeksOnChart>41</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Thought You Should Know</Song>
+      <Artist>Morgan Wallen</Artist>
+      <ThisWeek>11</ThisWeek>
+      <LastWeek>9</LastWeek>
+      <PeakPosition>7</PeakPosition>
+      <WeeksOnChart>32</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>All Of The Girls You Loved Before</Song>
+      <Artist>Taylor Swift</Artist>
+      <ThisWeek>12</ThisWeek>
+      <PeakPosition>12</PeakPosition>
+      <WeeksOnChart>1</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>You Proof</Song>
+      <Artist>Morgan Wallen</Artist>
+      <ThisWeek>13</ThisWeek>
+      <LastWeek>10</LastWeek>
+      <PeakPosition>5</PeakPosition>
+      <WeeksOnChart>45</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Under The Influence</Song>
+      <Artist>Chris Brown</Artist>
+      <ThisWeek>14</ThisWeek>
+      <LastWeek>16</LastWeek>
+      <PeakPosition>12</PeakPosition>
+      <WeeksOnChart>28</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>As It Was</Song>
+      <Artist>Harry Styles</Artist>
+      <ThisWeek>15</ThisWeek>
+      <LastWeek>15</LastWeek>
+      <PeakPosition>1</PeakPosition>
+      <WeeksOnChart>51</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>I'm Good (Blue)</Song>
+      <Artist>David Guetta &amp; Bebe Rexha</Artist>
+      <ThisWeek>16</ThisWeek>
+      <LastWeek>14</LastWeek>
+      <PeakPosition>4</PeakPosition>
+      <WeeksOnChart>30</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Lavender Haze</Song>
+      <Artist>Taylor Swift</Artist>
+      <ThisWeek>17</ThisWeek>
+      <LastWeek>25</LastWeek>
+      <PeakPosition>2</PeakPosition>
+      <WeeksOnChart>22</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Unholy</Song>
+      <Artist>Sam Smith &amp; Kim Petras</Artist>
+      <ThisWeek>18</ThisWeek>
+      <LastWeek>13</LastWeek>
+      <PeakPosition>1</PeakPosition>
+      <WeeksOnChart>26</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Just Wanna Rock</Song>
+      <Artist>Lil Uzi Vert</Artist>
+      <ThisWeek>19</ThisWeek>
+      <LastWeek>18</LastWeek>
+      <PeakPosition>10</PeakPosition>
+      <WeeksOnChart>23</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Thinkin' Bout Me</Song>
+      <Artist>Morgan Wallen</Artist>
+      <ThisWeek>20</ThisWeek>
+      <LastWeek>17</LastWeek>
+      <PeakPosition>9</PeakPosition>
+      <WeeksOnChart>3</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Favorite Song</Song>
+      <Artist>Toosii</Artist>
+      <ThisWeek>21</ThisWeek>
+      <LastWeek>36</LastWeek>
+      <PeakPosition>21</PeakPosition>
+      <WeeksOnChart>5</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>TQG</Song>
+      <Artist>Karol G x Shakira</Artist>
+      <ThisWeek>22</ThisWeek>
+      <LastWeek>19</LastWeek>
+      <PeakPosition>7</PeakPosition>
+      <WeeksOnChart>4</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Sure Thing</Song>
+      <Artist>Miguel</Artist>
+      <ThisWeek>23</ThisWeek>
+      <LastWeek>24</LastWeek>
+      <PeakPosition>23</PeakPosition>
+      <WeeksOnChart>34</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Escapism</Song>
+      <Artist>RAYE Featuring 070 Shake</Artist>
+      <ThisWeek>24</ThisWeek>
+      <LastWeek>23</LastWeek>
+      <PeakPosition>22</PeakPosition>
+      <WeeksOnChart>16</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>One Thing At A Time</Song>
+      <Artist>Morgan Wallen</Artist>
+      <ThisWeek>25</ThisWeek>
+      <LastWeek>20</LastWeek>
+      <PeakPosition>10</PeakPosition>
+      <WeeksOnChart>16</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Ella Baila Sola</Song>
+      <Artist>Eslabon Armado X Peso Pluma</Artist>
+      <ThisWeek>26</ThisWeek>
+      <PeakPosition>26</PeakPosition>
+      <WeeksOnChart>1</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Rich Flex</Song>
+      <Artist>Drake &amp; 21 Savage</Artist>
+      <ThisWeek>27</ThisWeek>
+      <LastWeek>26</LastWeek>
+      <PeakPosition>2</PeakPosition>
+      <WeeksOnChart>20</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Thank God</Song>
+      <Artist>Kane Brown With Katelyn Brown</Artist>
+      <ThisWeek>28</ThisWeek>
+      <LastWeek>21</LastWeek>
+      <PeakPosition>13</PeakPosition>
+      <WeeksOnChart>28</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Until I Found You</Song>
+      <Artist>Stephen Sanchez</Artist>
+      <ThisWeek>29</ThisWeek>
+      <LastWeek>28</LastWeek>
+      <PeakPosition>23</PeakPosition>
+      <WeeksOnChart>38</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Set Me Free, Pt. 2</Song>
+      <Artist>Jimin</Artist>
+      <ThisWeek>30</ThisWeek>
+      <PeakPosition>30</PeakPosition>
+      <WeeksOnChart>1</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Cuff It</Song>
+      <Artist>Beyonce</Artist>
+      <ThisWeek>31</ThisWeek>
+      <LastWeek>22</LastWeek>
+      <PeakPosition>6</PeakPosition>
+      <WeeksOnChart>32</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Going, Going, Gone</Song>
+      <Artist>Luke Combs</Artist>
+      <ThisWeek>32</ThisWeek>
+      <LastWeek>27</LastWeek>
+      <PeakPosition>23</PeakPosition>
+      <WeeksOnChart>19</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Something In The Orange</Song>
+      <Artist>Zach Bryan</Artist>
+      <ThisWeek>33</ThisWeek>
+      <LastWeek>30</LastWeek>
+      <PeakPosition>10</PeakPosition>
+      <WeeksOnChart>48</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Superhero (Heroes &amp; Villains)</Song>
+      <Artist>Metro Boomin, Future &amp; Chris Brown</Artist>
+      <ThisWeek>34</ThisWeek>
+      <LastWeek>34</LastWeek>
+      <PeakPosition>8</PeakPosition>
+      <WeeksOnChart>16</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Heart Like A Truck</Song>
+      <Artist>Lainey Wilson</Artist>
+      <ThisWeek>35</ThisWeek>
+      <LastWeek>38</LastWeek>
+      <PeakPosition>29</PeakPosition>
+      <WeeksOnChart>19</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Snooze</Song>
+      <Artist>SZA</Artist>
+      <ThisWeek>36</ThisWeek>
+      <LastWeek>35</LastWeek>
+      <PeakPosition>29</PeakPosition>
+      <WeeksOnChart>15</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>What He Didn't Do</Song>
+      <Artist>Carly Pearce</Artist>
+      <ThisWeek>37</ThisWeek>
+      <LastWeek>52</LastWeek>
+      <PeakPosition>37</PeakPosition>
+      <WeeksOnChart>14</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Everything I Love</Song>
+      <Artist>Morgan Wallen</Artist>
+      <ThisWeek>38</ThisWeek>
+      <LastWeek>29</LastWeek>
+      <PeakPosition>14</PeakPosition>
+      <WeeksOnChart>8</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Ain't That Some</Song>
+      <Artist>Morgan Wallen</Artist>
+      <ThisWeek>39</ThisWeek>
+      <LastWeek>31</LastWeek>
+      <PeakPosition>11</PeakPosition>
+      <WeeksOnChart>3</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Spin Bout U</Song>
+      <Artist>Drake &amp; 21 Savage</Artist>
+      <ThisWeek>40</ThisWeek>
+      <LastWeek>45</LastWeek>
+      <PeakPosition>5</PeakPosition>
+      <WeeksOnChart>20</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Bloody Mary</Song>
+      <Artist>Lady Gaga</Artist>
+      <ThisWeek>41</ThisWeek>
+      <LastWeek>43</LastWeek>
+      <PeakPosition>41</PeakPosition>
+      <WeeksOnChart>12</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Golden Hour</Song>
+      <Artist>JVKE</Artist>
+      <ThisWeek>42</ThisWeek>
+      <LastWeek>40</LastWeek>
+      <PeakPosition>10</PeakPosition>
+      <WeeksOnChart>30</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Wait In The Truck</Song>
+      <Artist>HARDY Featuring Lainey Wilson</Artist>
+      <ThisWeek>43</ThisWeek>
+      <LastWeek>42</LastWeek>
+      <PeakPosition>23</PeakPosition>
+      <WeeksOnChart>29</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Shirt</Song>
+      <Artist>SZA</Artist>
+      <ThisWeek>44</ThisWeek>
+      <LastWeek>39</LastWeek>
+      <PeakPosition>11</PeakPosition>
+      <WeeksOnChart>21</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>5 Leaf Clover</Song>
+      <Artist>Luke Combs</Artist>
+      <ThisWeek>45</ThisWeek>
+      <PeakPosition>45</PeakPosition>
+      <WeeksOnChart>1</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>I Wrote The Book</Song>
+      <Artist>Morgan Wallen</Artist>
+      <ThisWeek>46</ThisWeek>
+      <LastWeek>33</LastWeek>
+      <PeakPosition>18</PeakPosition>
+      <WeeksOnChart>8</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Red Ruby Da Sleeze</Song>
+      <Artist>Nicki Minaj</Artist>
+      <ThisWeek>47</ThisWeek>
+      <LastWeek>37</LastWeek>
+      <PeakPosition>13</PeakPosition>
+      <WeeksOnChart>3</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Painting Pictures</Song>
+      <Artist>Superstar Pride</Artist>
+      <ThisWeek>48</ThisWeek>
+      <LastWeek>53</LastWeek>
+      <PeakPosition>25</PeakPosition>
+      <WeeksOnChart>6</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Love You Anyway</Song>
+      <Artist>Luke Combs</Artist>
+      <ThisWeek>49</ThisWeek>
+      <LastWeek>62</LastWeek>
+      <PeakPosition>15</PeakPosition>
+      <WeeksOnChart>6</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Bebe Dame</Song>
+      <Artist>Fuerza Regida X Grupo Frontera</Artist>
+      <ThisWeek>50</ThisWeek>
+      <LastWeek>47</LastWeek>
+      <PeakPosition>25</PeakPosition>
+      <WeeksOnChart>13</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Man Made A Bar</Song>
+      <Artist>Morgan Wallen Featuring Eric Church</Artist>
+      <ThisWeek>51</ThisWeek>
+      <LastWeek>41</LastWeek>
+      <PeakPosition>15</PeakPosition>
+      <WeeksOnChart>3</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Nobody Gets Me</Song>
+      <Artist>SZA</Artist>
+      <ThisWeek>52</ThisWeek>
+      <LastWeek>50</LastWeek>
+      <PeakPosition>10</PeakPosition>
+      <WeeksOnChart>15</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Bzrp Music Sessions, Vol. 53</Song>
+      <Artist>Bizarrap &amp; Shakira</Artist>
+      <ThisWeek>53</ThisWeek>
+      <LastWeek>44</LastWeek>
+      <PeakPosition>9</PeakPosition>
+      <WeeksOnChart>10</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Cowgirls</Song>
+      <Artist>Morgan Wallen Featuring ERNEST</Artist>
+      <ThisWeek>54</ThisWeek>
+      <LastWeek>51</LastWeek>
+      <PeakPosition>40</PeakPosition>
+      <WeeksOnChart>3</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Next Thing You Know</Song>
+      <Artist>Jordan Davis</Artist>
+      <ThisWeek>55</ThisWeek>
+      <LastWeek>60</LastWeek>
+      <PeakPosition>55</PeakPosition>
+      <WeeksOnChart>9</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Ceilings</Song>
+      <Artist>Lizzy McAlpine</Artist>
+      <ThisWeek>56</ThisWeek>
+      <LastWeek>54</LastWeek>
+      <PeakPosition>54</PeakPosition>
+      <WeeksOnChart>5</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Wild As Her</Song>
+      <Artist>Corey Kent</Artist>
+      <ThisWeek>57</ThisWeek>
+      <LastWeek>57</LastWeek>
+      <PeakPosition>57</PeakPosition>
+      <WeeksOnChart>24</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Handle On You</Song>
+      <Artist>Parker McCollum</Artist>
+      <ThisWeek>58</ThisWeek>
+      <LastWeek>55</LastWeek>
+      <PeakPosition>55</PeakPosition>
+      <WeeksOnChart>12</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>River</Song>
+      <Artist>Miley Cyrus</Artist>
+      <ThisWeek>59</ThisWeek>
+      <LastWeek>32</LastWeek>
+      <PeakPosition>32</PeakPosition>
+      <WeeksOnChart>2</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>In Ha Mood</Song>
+      <Artist>Ice Spice</Artist>
+      <ThisWeek>60</ThisWeek>
+      <LastWeek>58</LastWeek>
+      <PeakPosition>58</PeakPosition>
+      <WeeksOnChart>7</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>'98 Braves</Song>
+      <Artist>Morgan Wallen</Artist>
+      <ThisWeek>61</ThisWeek>
+      <LastWeek>48</LastWeek>
+      <PeakPosition>27</PeakPosition>
+      <WeeksOnChart>3</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Sunrise</Song>
+      <Artist>Morgan Wallen</Artist>
+      <ThisWeek>62</ThisWeek>
+      <LastWeek>49</LastWeek>
+      <PeakPosition>30</PeakPosition>
+      <WeeksOnChart>3</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Special</Song>
+      <Artist>Lizzo Featuring SZA</Artist>
+      <ThisWeek>63</ThisWeek>
+      <LastWeek>59</LastWeek>
+      <PeakPosition>52</PeakPosition>
+      <WeeksOnChart>6</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Freestyle</Song>
+      <Artist>Lil Baby</Artist>
+      <ThisWeek>64</ThisWeek>
+      <LastWeek>65</LastWeek>
+      <PeakPosition>59</PeakPosition>
+      <WeeksOnChart>25</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Love Again</Song>
+      <Artist>The Kid LAROI</Artist>
+      <ThisWeek>65</ThisWeek>
+      <LastWeek>69</LastWeek>
+      <PeakPosition>40</PeakPosition>
+      <WeeksOnChart>8</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Trance</Song>
+      <Artist>Metro Boomin, Travis Scott &amp; Young Thug</Artist>
+      <ThisWeek>66</ThisWeek>
+      <LastWeek>64</LastWeek>
+      <PeakPosition>42</PeakPosition>
+      <WeeksOnChart>7</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Eat Your Young</Song>
+      <Artist>Hozier</Artist>
+      <ThisWeek>67</ThisWeek>
+      <PeakPosition>67</PeakPosition>
+      <WeeksOnChart>1</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Tennessee Orange</Song>
+      <Artist>Megan Moroney</Artist>
+      <ThisWeek>68</ThisWeek>
+      <LastWeek>75</LastWeek>
+      <PeakPosition>53</PeakPosition>
+      <WeeksOnChart>15</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Nonsense</Song>
+      <Artist>Sabrina Carpenter</Artist>
+      <ThisWeek>69</ThisWeek>
+      <LastWeek>78</LastWeek>
+      <PeakPosition>56</PeakPosition>
+      <WeeksOnChart>10</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>AMG</Song>
+      <Artist>Gabito Ballesteros, Peso Pluma &amp; Natanael Cano</Artist>
+      <ThisWeek>70</ThisWeek>
+      <LastWeek>86</LastWeek>
+      <PeakPosition>66</PeakPosition>
+      <WeeksOnChart>9</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Yandel 150</Song>
+      <Artist>Yandel &amp; Feid</Artist>
+      <ThisWeek>71</ThisWeek>
+      <LastWeek>79</LastWeek>
+      <PeakPosition>71</PeakPosition>
+      <WeeksOnChart>6</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Por Las Noches</Song>
+      <Artist>Peso Pluma</Artist>
+      <ThisWeek>72</ThisWeek>
+      <LastWeek>92</LastWeek>
+      <PeakPosition>72</PeakPosition>
+      <WeeksOnChart>2</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>PRC</Song>
+      <Artist>Peso Pluma X Natanael Cano</Artist>
+      <ThisWeek>73</ThisWeek>
+      <LastWeek>95</LastWeek>
+      <PeakPosition>73</PeakPosition>
+      <WeeksOnChart>6</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Forever</Song>
+      <Artist>Lil Baby Featuring Fridayy</Artist>
+      <ThisWeek>74</ThisWeek>
+      <LastWeek>82</LastWeek>
+      <PeakPosition>8</PeakPosition>
+      <WeeksOnChart>11</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Watch This (ARIZONATEARS Pluggnb Remix)</Song>
+      <Artist>Lil Uzi Vert</Artist>
+      <ThisWeek>75</ThisWeek>
+      <LastWeek>66</LastWeek>
+      <PeakPosition>56</PeakPosition>
+      <WeeksOnChart>5</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Dawns</Song>
+      <Artist>Zach Bryan Featuring Maggie Rogers</Artist>
+      <ThisWeek>76</ThisWeek>
+      <LastWeek>71</LastWeek>
+      <PeakPosition>42</PeakPosition>
+      <WeeksOnChart>8</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>La Bebe</Song>
+      <Artist>Yng Lvcas x Peso Pluma</Artist>
+      <ThisWeek>77</ThisWeek>
+      <PeakPosition>77</PeakPosition>
+      <WeeksOnChart>1</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Que Vuelvas</Song>
+      <Artist>Carin Leon X Grupo Frontera</Artist>
+      <ThisWeek>78</ThisWeek>
+      <LastWeek>84</LastWeek>
+      <PeakPosition>50</PeakPosition>
+      <WeeksOnChart>13</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Dying Man</Song>
+      <Artist>Morgan Wallen</Artist>
+      <ThisWeek>79</ThisWeek>
+      <LastWeek>70</LastWeek>
+      <PeakPosition>43</PeakPosition>
+      <WeeksOnChart>3</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Whiskey Friends</Song>
+      <Artist>Morgan Wallen</Artist>
+      <ThisWeek>80</ThisWeek>
+      <LastWeek>61</LastWeek>
+      <PeakPosition>35</PeakPosition>
+      <WeeksOnChart>3</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Low</Song>
+      <Artist>SZA</Artist>
+      <ThisWeek>81</ThisWeek>
+      <LastWeek>83</LastWeek>
+      <PeakPosition>17</PeakPosition>
+      <WeeksOnChart>15</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Heaven</Song>
+      <Artist>Niall Horan</Artist>
+      <ThisWeek>82</ThisWeek>
+      <LastWeek>93</LastWeek>
+      <PeakPosition>62</PeakPosition>
+      <WeeksOnChart>4</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Dancin' In The Country</Song>
+      <Artist>Tyler Hubbard</Artist>
+      <ThisWeek>83</ThisWeek>
+      <LastWeek>99</LastWeek>
+      <PeakPosition>83</PeakPosition>
+      <WeeksOnChart>5</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>El Gordo Trae El Mando</Song>
+      <Artist>Chino Pacas</Artist>
+      <ThisWeek>84</ThisWeek>
+      <PeakPosition>84</PeakPosition>
+      <WeeksOnChart>1</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>10:35</Song>
+      <Artist>Tiesto Featuring Tate McRae</Artist>
+      <ThisWeek>85</ThisWeek>
+      <LastWeek>89</LastWeek>
+      <PeakPosition>69</PeakPosition>
+      <WeeksOnChart>9</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Devil Don't Know</Song>
+      <Artist>Morgan Wallen</Artist>
+      <ThisWeek>86</ThisWeek>
+      <LastWeek>63</LastWeek>
+      <PeakPosition>29</PeakPosition>
+      <WeeksOnChart>3</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Coco Chanel</Song>
+      <Artist>Eladio Carrion &amp; Bad Bunny</Artist>
+      <ThisWeek>87</ThisWeek>
+      <PeakPosition>87</PeakPosition>
+      <WeeksOnChart>1</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>ICU</Song>
+      <Artist>Coco Jones</Artist>
+      <ThisWeek>88</ThisWeek>
+      <PeakPosition>88</PeakPosition>
+      <WeeksOnChart>1</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>You Didn't</Song>
+      <Artist>Brett Young</Artist>
+      <ThisWeek>89</ThisWeek>
+      <LastWeek>87</LastWeek>
+      <PeakPosition>63</PeakPosition>
+      <WeeksOnChart>11</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Neon Star (Country Boy Lullaby)</Song>
+      <Artist>Morgan Wallen</Artist>
+      <ThisWeek>90</ThisWeek>
+      <LastWeek>73</LastWeek>
+      <PeakPosition>48</PeakPosition>
+      <WeeksOnChart>3</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Human</Song>
+      <Artist>Cody Johnson</Artist>
+      <ThisWeek>91</ThisWeek>
+      <PeakPosition>84</PeakPosition>
+      <WeeksOnChart>8</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Moonlight</Song>
+      <Artist>Kali Uchis</Artist>
+      <ThisWeek>92</ThisWeek>
+      <PeakPosition>92</PeakPosition>
+      <WeeksOnChart>1</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Gold</Song>
+      <Artist>Dierks Bentley</Artist>
+      <ThisWeek>93</ThisWeek>
+      <PeakPosition>90</PeakPosition>
+      <WeeksOnChart>3</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Born With A Beer In My Hand</Song>
+      <Artist>Morgan Wallen</Artist>
+      <ThisWeek>94</ThisWeek>
+      <LastWeek>67</LastWeek>
+      <PeakPosition>32</PeakPosition>
+      <WeeksOnChart>3</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Death</Song>
+      <Artist>Melanie Martinez</Artist>
+      <ThisWeek>95</ThisWeek>
+      <PeakPosition>95</PeakPosition>
+      <WeeksOnChart>1</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Nasty</Song>
+      <Artist>Russ</Artist>
+      <ThisWeek>96</ThisWeek>
+      <PeakPosition>96</PeakPosition>
+      <WeeksOnChart>1</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Jaded</Song>
+      <Artist>Miley Cyrus</Artist>
+      <ThisWeek>97</ThisWeek>
+      <LastWeek>56</LastWeek>
+      <PeakPosition>56</PeakPosition>
+      <WeeksOnChart>2</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Here With Me</Song>
+      <Artist>d4vd</Artist>
+      <ThisWeek>98</ThisWeek>
+      <PeakPosition>60</PeakPosition>
+      <WeeksOnChart>10</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Me + All Your Reasons</Song>
+      <Artist>Morgan Wallen</Artist>
+      <ThisWeek>99</ThisWeek>
+      <LastWeek>81</LastWeek>
+      <PeakPosition>51</PeakPosition>
+      <WeeksOnChart>3</WeeksOnChart>
+    </Datum>
+    <Datum>
+      <Song>Cupid</Song>
+      <Artist>Fifty Fifty</Artist>
+      <ThisWeek>100</ThisWeek>
+      <PeakPosition>100</PeakPosition>
+      <WeeksOnChart>1</WeeksOnChart>
+    </Datum>
+  </Data>
+</BillboardTopSongs>

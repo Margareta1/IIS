@@ -1,0 +1,52 @@
+﻿@model BillboardRank
+@{
+    ViewData["Title"] = "Xsd validation";
+    var response = ViewBag.Response as string;
+
+}
+<link href="/css/Index.css" rel="stylesheet" />
+<link href="/css/Billboard.css" rel="stylesheet" />
+<style>
+    #xmlPicture {
+        width: 400px;
+        display: flex;
+        margin: 50px;
+    }
+</style>
+
+<div class="ag-format-container">
+    <div class="ag-courses_box" style="justify-content: center">
+
+        <div class="text-center" id="homeBtnDiv">
+            <a id="homeBtn" href="/Home/Index"><i class="bi bi-house-door-fill"></i></a>
+        </div>
+
+        <div class="text-center" id="homeBtnDiv">
+            <p id="demo2" style="color:white;">Validate your Bilboard Ranking here (example picture below).</p>
+        </div>
+
+        <div class="container" style="display:flex; width:100%; ">
+            <div class="container" style="width:50%;">
+                <img id="xmlPicture" src="~/css/validate.png" />
+            </div>
+
+            <form action="/Home/XsdValidation" method="post" enctype="multipart/form-data" style="display:flex; flex-direction:column; width:100%; align-self:center;">
+                <div class="container">
+                    <div class="container" style="margin:10px;">
+                        <input type="file" class="form-control" name="fileInput" multiple id="fileInput">
+                    </div>
+                    <div class="container" style="text-align-last:center; margin:10px;">
+                        <span id="nullValues" style="color:white; margin:5px;"></span><button type="submit" id="aSubmit" onclick="submitValidation()" href="#" class="btn" style="background-color:#04AA6D">Submit</button>
+                    </div>
+                    @if (response != null)
+                    {
+                        <div class="container" id="resultContainer" style="color:white;text-align-last:center; margin:10px;">@response</div>
+
+                    }
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+</div>

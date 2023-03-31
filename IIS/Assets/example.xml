@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BillboardTopSongs>
+	<Data>
+		<Datum>
+			<Song>Flowers</Song>
+			<Artist>Miley Cyrus</Artist>
+			<ThisWeek>1</ThisWeek>
+			<LastWeek>1</LastWeek>
+			<PeakPosition>1</PeakPosition>
+			<WeeksOnChart>10</WeeksOnChart>
+		</Datum>
+		<Datum>
+			<Song>Last Night</Song>
+			<Artist>Morgan Wallen</Artist>
+			<ThisWeek>2</ThisWeek>
+			<LastWeek>2</LastWeek>
+			<PeakPosition>1</PeakPosition>
+			<WeeksOnChart>8</WeeksOnChart>
+		</Datum>
+	</Data>
+</BillboardTopSongs>
